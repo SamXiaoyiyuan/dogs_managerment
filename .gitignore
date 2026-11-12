@@ -1,0 +1,36 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+# 只忽略与个人环境相关的文件；保留 .idea 下的工程配置（.iml、libraries 等），clone 后可直接打开
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+*.iws
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
