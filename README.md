@@ -42,7 +42,7 @@ dogs_managerment/
 │       ├── Human.java                  # 接口：对行为做抽象
 │       ├── Chinese.java                # Human 实现类
 │       ├── Westerner.java              # Human 实现类
-│       ├── Huahu.java                  # 父类“花虎”，演示转型的父类型
+│       ├── Huahu.java                  # 父类“花弧”，演示转型的父类型
 │       ├── HuaMulan.java               # 子类“花木兰”，多了一个 dressing()
 │       └── Earth.java                  # 单例模式示例
 ├── jar/
@@ -182,7 +182,7 @@ HuaMulan
 
 `Dogs`、`Cats`、`Hamster` 继承 `Animal`，重写 `barking()` 后各叫各的。`Dogs` 里的 `isGuideBlindness()` 被标注为“反例”：把“是否导盲”这种只属于部分狗的能力放在所有狗身上并不合适。`Labrador` 继承后重写为 `true`，同时用 `final` 声明，表示继承链到此为止。
 
-### 多态：花虎与花木兰
+### 多态：花弧与花木兰
 
 `Application.main` 是唯一带 `main` 方法的入口，演示向上转型和向下转型：
 
